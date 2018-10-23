@@ -1,5 +1,11 @@
-//This pulls Google Sheet data and converts it to a readable JSON format
-//Then saves it to an AWS bucket.
+/*This pulls Google Sheet data and converts it to a readable JSON format
+Then saves it to an AWS bucket.
+Accepts event object with the following parameters:
+{
+  "bucketName": "",
+  "filePath": "",
+  "spreadsheetKey": ""
+}*/
 
 var request = require('request');
 
