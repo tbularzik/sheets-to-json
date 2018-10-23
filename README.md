@@ -10,5 +10,5 @@ In Lambda, the script accepts an event object with the following parameters:
   "spreadsheetKey": ""
 }
 
-AWS Lambda must be given a role that allows it to access the bucket you're writing to.
+AWS Lambda must be given a role that allows it to access the bucket you're writing to. Google Sheet must be published to the web.
 You can access the resulting JSON file here: https://s3.[your-region-name].amazonaws.com/[bucketName]/filePath.
